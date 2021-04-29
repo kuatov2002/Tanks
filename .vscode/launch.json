@@ -1,0 +1,44 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "vmArgs": "--module-path C:\\Users\\gamer\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Tanks_ea6d522a"
+        },
+        {
+            "type": "java",
+            "name": "Launch sally",
+            "request": "launch",
+            "mainClass": "sally",
+            "projectName": "Tanks_fd1de66f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Tanks_fd1de66f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "vmArgs": "--module-path C:\\Users\\gamer\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED",
+            "mainClass": "App",
+            "projectName": "Tanks_fd1de66f"
+        }
+    ]
+}
